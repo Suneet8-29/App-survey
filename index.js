@@ -3,8 +3,9 @@ const app = express();
 
 app.get('/', (req, res) => {
     
-    res.send({cool : "cool"});
+    res.send({start : "deploy"});
 })
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
+ 
